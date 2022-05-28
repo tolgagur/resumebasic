@@ -86,8 +86,11 @@ nav ul li a {
   position: absolute;
   left: -220px;
   top: -150px;
+ 
   font-size: 270px;
   z-index: -1;
   color: #f4f4f4;
-  content: "TOLGA";
+  
+ 
+  content: "010110";
 }
