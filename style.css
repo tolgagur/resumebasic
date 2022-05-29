@@ -30,6 +30,7 @@ li {
   font-size: 1em;
   line-height: 1.75em;
 }
+
 /* h1 global settings */
 h1 {
   font-family: "Playfair Display SC", serif;
@@ -37,6 +38,7 @@ h1 {
   color: #000000;
   margin: 0 0 0.5em 0;
 }
+
 /* nav global settings */
 nav {
   background: #f4f4f4;
@@ -49,12 +51,13 @@ nav {
   max-width: 662px;
   position: relative;
 }
- /* h1 settings under .container */
+
+/* h1 settings under .container */
 .container h1 {
   text-transform: uppercase;
   position: relative;
 }
- 
+
 /* avatar */
 .avatar {
   vertical-align: middle;
@@ -62,6 +65,7 @@ nav {
   height: 100px;
   border-radius: 50%;
 }
+
 /* image response settings */
 @media only screen and (max-width: 575px) {
   .imagecenter img {
@@ -71,7 +75,7 @@ nav {
   }
 }
 
- 
+
 
 /* background text setting  */
 .back h1:before {
@@ -81,12 +85,50 @@ nav {
   font-size: 270px;
   z-index: -1;
   color: #f4f4f4;
-  content: "010110";
+  content: "JAVA BACKEND DEVELOPER";
 }
+
 /* Scrollbar settings */
 ::-webkit-scrollbar {
   display: none;
-  visibility: hidden;
+ 
   opacity: 0
+  
+}
+.x-scroll-disabled {
+	overflow-x: hidden;
 }
 
+/* work-list settings */
+.work .work-list {
+  margin-left: -40px;
+}
+
+li {
+  list-style: none;
+  margin-left: 0px;
+}
+
+.work-list li a {
+  padding-bottom: 5px;
+  font-size: 19px;
+
+  text-decoration: none;
+  border-bottom: 1px solid #b3b3b3;
+}
+
+.work .work-list li a:hover {
+  border-bottom: 1px solid #333333;
+}
+
+.quote {
+  background: url(../img/bg.jpg);
+  padding: 20px 0px;
+  margin-top: 120px;
+}
+.quote h1 {
+  margin: 100px 0px;
+  padding: 40px 20px;
+  border: 5px solid #fff;
+  color: #fff;
+}
