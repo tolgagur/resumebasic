@@ -121,6 +121,7 @@ li {
   border-bottom: 1px solid #333333;
 }
 
+/* banner settings */
 .quote {
   background: url(../img/bg.jpg);
   padding: 20px 0px;
@@ -132,7 +133,8 @@ li {
   border: 5px solid #fff;
   color: #fff;
 }
- 
+
+/* footer settings */
 footer {
   padding: 50px 0px 0px 0px;
 }
@@ -144,3 +146,35 @@ footer .social li a {
   font-size: 1.25em;
   color: #999;
 }
+
+
+/* link settings */
+  a:hover {
+  text-decoration: none !important;
+  color: #333 !important;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+#yukari{
+ 
+  position:fixed;
+  bottom:5px;
+  right:5px;
+  
+  width:40px;
+  height:40px;
+  text-align:center;
+  line-height: 50px;
+  border-radius:35px;
+  transition:all .3s ease;
+  z-index:999
+}
+#yukari i{
+  color:#999;
+  font-size:20px;
+}
+ 
+ 
